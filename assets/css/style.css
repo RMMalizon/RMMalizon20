@@ -307,14 +307,16 @@ body {
 }
 
 .header {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding-block: 15px;
   z-index: 4;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   transition: var(--transition);
   color: var(--prussian-blue); /* Ensure all text in header is black */
+  
 }
 
 .header.active {
@@ -470,7 +472,6 @@ body {
 }
 
 .hero-content {
-  background-color: black;
   color: var(--white);
   text-align: center;
   padding: 30px;

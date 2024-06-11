@@ -362,7 +362,7 @@ body {
   max-width: 300px;
   width: 100%;
   height: 100%;
-  background-color: var(--light-gray);
+  background-color: var(--plutinum);
   box-shadow: var(--shadow-1);
   z-index: 3;
   visibility: hidden;
@@ -2630,5 +2630,8 @@ font-family: var(--ff-oswald);
   @media screen and (max-width: 600px) {
     .contact-number {
       font-size: 5px; /* Adjust as needed for smaller screens */
+    }
+    .contact-label{
+      font-size: 6px;
     }
   }

@@ -19,6 +19,7 @@
   --prussian-blue: hsl(202, 72%, 15%);
   --eerie-black: rgb(34, 38, 42);
   --dark-orange: #971515;
+  --light-red:#ce7373;
   --alice-blue: hsl(203, 100%, 97%);
   --light-gray: hsl(0, 0%, 80%);
   --indigo-dye: hsl(202, 64%, 26%);
@@ -362,7 +363,7 @@ body {
   max-width: 300px;
   width: 100%;
   height: 100%;
-  background-color: var(--plutinum);
+  background-color: var(--light-red);
   box-shadow: var(--shadow-1);
   z-index: 3;
   visibility: hidden;

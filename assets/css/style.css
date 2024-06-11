@@ -2626,3 +2626,9 @@ font-family: var(--ff-oswald);
 .h1.hero-title, .hero-text {
   margin: 0;
 }
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .contact-number {
+      font-size: 5px; /* Adjust as needed for smaller screens */
+    }
+  }
